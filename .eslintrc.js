@@ -1,4 +1,5 @@
 module.exports = {
+  plugins: ["jasmine"],
   env: {
     browser: true,
     commonjs: true,
@@ -6,13 +7,16 @@ module.exports = {
     jasmine: true,
     jquery: true
   },
-  extends: 'airbnb-base',
+  extends: 'airbnb-base', 
+  extends: 'airbnb-base/legacy',
+  extends: 'plugin:jasmine/recommended',
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
   },
   parserOptions: {
-    ecmaVersion: 2015,
+    ecmaVersion: "ES5",
+    ecmaFeatures: "impliedStrict"
   },
   rules: {
   },

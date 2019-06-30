@@ -2,13 +2,13 @@
   "name": "bowling-challenge",
   "version": "1.0.0",
   "description": "Makers Week 5 - Bowling Scorecard",
-  "main": "index.js",
+  "main": "bowlingScorecard.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "test": "open SpecRunner.html",
-    "lint": "eslint \"./**/*.js\" --fix"
+    "lint": "eslint \"./**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.18.0"
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jasmine": "^2.10.1"
   }
 }
