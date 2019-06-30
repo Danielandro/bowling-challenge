@@ -1,0 +1,27 @@
+{
+  "name": "bowling-challenge",
+  "version": "1.0.0",
+  "description": "Makers Week 5 - Bowling Scorecard",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "open SpecRunner.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielandro/bowling-challenge.git"
+  },
+  "author": "Danny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danielandro/bowling-challenge/issues"
+  },
+  "homepage": "https://github.com/Danielandro/bowling-challenge#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.18.0"
+  }
+}

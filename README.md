@@ -18,6 +18,8 @@ A bowling game consists of 10 frames in which the player tries to knock down the
 
 Clone the repo
 
+To run tests: `npm test` 
+
 
 ## Tech Stack
 
