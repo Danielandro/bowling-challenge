@@ -66,3 +66,5 @@ html
 Resources
 ---------
 ---------
+
+[ESLint setup in VSC](https://dev.to/iamdammak/setting-up-eslint-in-your-javascript-project-with-vs-code-2amf)
